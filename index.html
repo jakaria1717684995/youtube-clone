@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- font family -->
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <!-- css link -->
  <link rel="stylesheet" href="style.css">
@@ -15,7 +16,7 @@
     <title>Document</title>
 </head>
 <body class="bg-gray-100 roboto antialiased">
-    <header class="bg-white divide-y ml-16 border-b">
+    <header class="bg-white bg-opacity-75 divide-y ml-16 border-b fixed inset-x-0">
         <div class="flex justify-between items-center h-14 mx-4">
             <div class="-ml-3">
                 <img src="imges/yt-logo.png" alt="youtube logo" class="w-20 h-12">
@@ -37,8 +38,8 @@
                     <i class="material-icons">notifications</i>
                 </button>
                 <button>
-                    <div class="h-8 w-8 rounded-full bg-blue-300">
-
+                    <div class="h-8 w-8 rounded-full bg-blue-300 overflow-hidden object-cover">
+                        <img src="imges/jack8.jpg" alt="">
                     </div>
                 </button>
             </div>
@@ -96,21 +97,46 @@
             </button>
         </div>
     </aside>
-    <main class="ml-28 pt-8">
-        <div>
+    <main class="ml-28 pt-32">
+        <div class="border-b-4 border-gray-500 pb-12">
             <h3 class="text-xl font-bold ">Recommended</h3>
-            <div class="grid grid-cols-4">
+            <div class="grid grid-cols-4 gap-y-10 gap-x-2">
                 <div class="mt-4">
                     <div class="w-64">
-                        <div class="h-40 bg-gray-700 w-full"></div>
+                        <div class="h-40 bg-gray-700 w-full overflow-hidden">
+                            <iframe width="100%" height="160" src="https://www.youtube.com/embed/V0VJ0CXB31U?si=Xq4jOqNI8GlFNJpt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
                         <div class="flex mt-2">
-                            <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0"></div>
+                            <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden object-cover">
+                                <img src="imges/channels4_profile.jpg" alt="">
+                            </div>
                             <div class="ml-2">
                                 <div class="text-sm font-bold">
-                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <p>Divine Music - Ethnic & Deep House Mix 2023 [Vol.34]</p>
                                 </div>
                                 <div class="text-xs text-gray-700">
-                                    <p>Channel name</p>
+                                    <p>Divine Music</p>
+                                    <p>9 hours ago &middot; 87M views</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <div class="w-64">
+                        <div class="h-40 bg-gray-700 w-full overflow-hidden">
+                            <iframe width="100%" height="160" src="https://www.youtube.com/embed/IfZQqg7-fnE?si=1yTxgHHQ7cSfJPZd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="flex mt-2">
+                            <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden object-cover">
+                                <img src="imges/sonic.jpg" alt="">
+                            </div>
+                            <div class="ml-2">
+                                <div class="text-sm font-bold">
+                                    <p>Motu Patlu Cylinder Ki Sawaari Episode 102</p>
+                                </div>
+                                <div class="text-xs text-gray-700">
+                                    <p>Sonic</p>
                                     <p>9 hours ago &middot; 87k views</p>
                                 </div>
                             </div>
@@ -119,16 +145,20 @@
                 </div>
                 <div class="mt-4">
                     <div class="w-64">
-                        <div class="h-40 bg-gray-700 w-full"></div>
+                        <div class="h-40 bg-gray-700 w-full">
+                            <iframe width="100%" height="160" src="https://www.youtube.com/embed/mTjomq0BltE?si=LObwLX5YW64tMNCp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
                         <div class="flex mt-2">
-                            <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0"></div>
+                            <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden object-cover">
+                                <img src="imges/Dipra & Durjoy Brothers.jpg" alt="">
+                            </div>
                             <div class="ml-2">
                                 <div class="text-sm font-bold">
-                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <p>তুমি যাইয়ো না, যাইয়ো না বন্ধুরে.</p>
                                 </div>
                                 <div class="text-xs text-gray-700">
-                                    <p>Channel name</p>
-                                    <p>9 hours ago &middot; 87k views</p>
+                                    <p>Dipra & Durjoy Brothers</p>
+                                    <p>12 hours ago &middot; 70k views</p>
                                 </div>
                             </div>
                         </div>
@@ -136,16 +166,20 @@
                 </div>
                 <div class="mt-4">
                     <div class="w-64">
-                        <div class="h-40 bg-gray-700 w-full"></div>
+                        <div class="h-40 bg-gray-700 w-full">
+                            <iframe width="100%" height="160" src="https://www.youtube.com/embed/IY4IACoLuj4?si=PdNlA-CK_-2WD0aX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
                         <div class="flex mt-2">
-                            <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0"></div>
+                            <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden object-cover">
+                                <img src="imges/bonna.jpg" alt="">
+                            </div>
                             <div class="ml-2">
                                 <div class="text-sm font-bold">
-                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <p>অন্তরেতে দাগ লাগাইয়া রে cover by bonnatalukder & mohua muna </p>
                                 </div>
                                 <div class="text-xs text-gray-700">
-                                    <p>Channel name</p>
-                                    <p>9 hours ago &middot; 87k views</p>
+                                    <p>Bonna talukder</p>
+                                    <p>2 year ago &middot; 10k views</p>
                                 </div>
                             </div>
                         </div>
@@ -153,16 +187,20 @@
                 </div>
                 <div class="mt-4">
                     <div class="w-64">
-                        <div class="h-40 bg-gray-700 w-full"></div>
+                        <div class="h-40 bg-gray-700 w-full">
+                            <iframe width="100%" height="160" src="https://www.youtube.com/embed/2Ze2QDkWvzk?si=37uuLQCBKirYLH2Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
                         <div class="flex mt-2">
-                            <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0"></div>
+                            <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden object-cover">
+                                <img src="imges/jack8.jpg" alt="">
+                            </div>
                             <div class="ml-2">
                                 <div class="text-sm font-bold">
-                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <p>বল বীর বল উন্নত মম শির! বিদ্রোহী কাজী নজরুল ইসলাম</p>
                                 </div>
                                 <div class="text-xs text-gray-700">
-                                    <p>Channel name</p>
-                                    <p>9 hours ago &middot; 87k views</p>
+                                    <p>jack pic</p>
+                                    <p>4 month ago &middot; 3M views</p>
                                 </div>
                             </div>
                         </div>
@@ -170,16 +208,20 @@
                 </div>
                 <div class="mt-4">
                     <div class="w-64">
-                        <div class="h-40 bg-gray-700 w-full"></div>
+                        <div class="h-40 bg-gray-700 w-full">
+                            <iframe width="100%" height="160" src="https://www.youtube.com/embed/ork1V9VlgGs?si=eEh31uu7biok88Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
                         <div class="flex mt-2">
-                            <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0"></div>
+                            <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden object-cover">
+                                <img src="imges/oot.jpg" alt="">
+                            </div>
                             <div class="ml-2">
                                 <div class="text-sm font-bold">
-                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <p>Mora Jhonjhar Moto Uddam I #NazrulGeeti I #lyricalmusicvideo I OTT Music</p>
                                 </div>
                                 <div class="text-xs text-gray-700">
-                                    <p>Channel name</p>
-                                    <p>9 hours ago &middot; 87k views</p>
+                                    <p>OTT Music Lyrical</p>
+                                    <p>Jun 18, 2024 &middot; 731 views</p>
                                 </div>
                             </div>
                         </div>
@@ -187,16 +229,20 @@
                 </div>
                 <div class="mt-4">
                     <div class="w-64">
-                        <div class="h-40 bg-gray-700 w-full"></div>
+                        <div class="h-40 bg-gray-700 w-full overflow-hidden object-cover">
+                            <iframe width="100%" height="160" src="https://www.youtube.com/embed/6lmJocWpmWw?si=X4NbbjRN9BRew7QT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
                         <div class="flex mt-2">
-                            <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0"></div>
+                            <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden object-cover">
+                                <img src="imges/golden.jpg" alt="">
+                            </div>
                             <div class="ml-2">
                                 <div class="text-sm font-bold">
-                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <p>Ai Sikol pora-</p>
                                 </div>
                                 <div class="text-xs text-gray-700">
-                                    <p>Channel name</p>
-                                    <p>9 hours ago &middot; 87k views</p>
+                                    <p>Golden lone</p>
+                                    <p>11 hours ago &middot; 88k views</p>
                                 </div>
                             </div>
                         </div>
@@ -204,124 +250,25 @@
                 </div>
                 <div class="mt-4">
                     <div class="w-64">
-                        <div class="h-40 bg-gray-700 w-full"></div>
+                        <div class="h-40 bg-gray-700 w-full">
+                            <iframe width="100%" height="160" src="https://www.youtube.com/embed/LQ6O8u5GqHY?si=5B09tWfv2z73VHpO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
                         <div class="flex mt-2">
-                            <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0"></div>
+                            <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0 overflow-hidden object-cover">
+                                <img src="imges/cd.jpg" alt="">
+                            </div>
                             <div class="ml-2">
                                 <div class="text-sm font-bold">
-                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <p>কান্ডারী হুঁশিয়ার - কাজী নজরুল ইসলাম।</p>
                                 </div>
                                 <div class="text-xs text-gray-700">
-                                    <p>Channel name</p>
-                                    <p>9 hours ago &middot; 87k views</p>
+                                    <p>Shobder Toree Beye</p>
+                                    <p>2 months ago &middot; 7k views</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="mt-4">
-                    <div class="w-64">
-                        <div class="h-40 bg-gray-700 w-full"></div>
-                        <div class="flex mt-2">
-                            <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0"></div>
-                            <div class="ml-2">
-                                <div class="text-sm font-bold">
-                                    <p>Lorem ipsum dolor sit amet.</p>
-                                </div>
-                                <div class="text-xs text-gray-700">
-                                    <p>Channel name</p>
-                                    <p>9 hours ago &middot; 87k views</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mt-4">
-                    <div class="w-64">
-                        <div class="h-40 bg-gray-700 w-full"></div>
-                        <div class="flex mt-2">
-                            <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0"></div>
-                            <div class="ml-2">
-                                <div class="text-sm font-bold">
-                                    <p>Lorem ipsum dolor sit amet.</p>
-                                </div>
-                                <div class="text-xs text-gray-700">
-                                    <p>Channel name</p>
-                                    <p>9 hours ago &middot; 87k views</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mt-4">
-                    <div class="w-64">
-                        <div class="h-40 bg-gray-700 w-full"></div>
-                        <div class="flex mt-2">
-                            <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0"></div>
-                            <div class="ml-2">
-                                <div class="text-sm font-bold">
-                                    <p>Lorem ipsum dolor sit amet.</p>
-                                </div>
-                                <div class="text-xs text-gray-700">
-                                    <p>Channel name</p>
-                                    <p>9 hours ago &middot; 87k views</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mt-4">
-                    <div class="w-64">
-                        <div class="h-40 bg-gray-700 w-full"></div>
-                        <div class="flex mt-2">
-                            <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0"></div>
-                            <div class="ml-2">
-                                <div class="text-sm font-bold">
-                                    <p>Lorem ipsum dolor sit amet.</p>
-                                </div>
-                                <div class="text-xs text-gray-700">
-                                    <p>Channel name</p>
-                                    <p>9 hours ago &middot; 87k views</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mt-4">
-                    <div class="w-64">
-                        <div class="h-40 bg-gray-700 w-full"></div>
-                        <div class="flex mt-2">
-                            <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0"></div>
-                            <div class="ml-2">
-                                <div class="text-sm font-bold">
-                                    <p>Lorem ipsum dolor sit amet.</p>
-                                </div>
-                                <div class="text-xs text-gray-700">
-                                    <p>Channel name</p>
-                                    <p>9 hours ago &middot; 87k views</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mt-4">
-                    <div class="w-64">
-                        <div class="h-40 bg-gray-700 w-full"></div>
-                        <div class="flex mt-2">
-                            <div class="h-10 w-10 bg-blue-300 rounded-full flex-shrink-0"></div>
-                            <div class="ml-2">
-                                <div class="text-sm font-bold">
-                                    <p>Lorem ipsum dolor sit amet.</p>
-                                </div>
-                                <div class="text-xs text-gray-700">
-                                    <p>Channel name</p>
-                                    <p>9 hours ago &middot; 87k views</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </main>
 </body>
